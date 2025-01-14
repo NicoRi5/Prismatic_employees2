@@ -13,6 +13,7 @@ const seed = async () => {
     { name: "Preston" },
     { name: "Yolanda" },
   ];
+  console.log("Hello");
   await prisma.employee.createMany({ data: userObj });
 };
 seed()
