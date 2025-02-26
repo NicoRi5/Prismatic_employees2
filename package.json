@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "You've done a great job building an employee-management API with placeholder data. Now you can be trusted to set up a real database!",
   "main": "index.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "seed": "node prisma/seed.js",
     "dev": "nodemon server.js",
-    "start": "nose server.js"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",

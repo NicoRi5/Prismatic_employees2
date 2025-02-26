@@ -1,6 +1,7 @@
 const prisma = require("./index");
 
 const seed = async () => {
+  await prisma.employee.deleteMany({});
   const userObj = [
     { name: "Whitney" },
     { name: "Daniel" },
